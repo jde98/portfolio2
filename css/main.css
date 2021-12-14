@@ -26,6 +26,7 @@ nav li a {color: #fff; text-decoration: none;}
 .animate {opacity: 0; visibility: hidden;}
 .fadeInUp {webkit-animation-name: fadeInUp; animation-name: fadeInUp;}
 */
+
 .section_1 {position: relative; width: 100%; height: 969px; background-image: url(../img/sbg-1.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; z-index: 0;}
 .overlay {position: absolute; background-color: #000; content: ''; top: 0; left: 0; right: 0; bottom: 0; opacity: 0.5;}
 .container {max-width: 1200px; height: 100%; margin: 0 auto; z-index: 20;}
@@ -47,8 +48,8 @@ nav li a {color: #fff; text-decoration: none;}
 .pd {padding: 112px 0;}
 
 .section2_wrap {display: flex;}
-.section2_img {width: 100%; background: url(../img/xabout-2.jpg.pagespeed.ic.rhzBNDuwZq.jpg) no-repeat; background-size: cover; background-position: center;}
-.section2_text {padding-left: 50px; width: 100%; display: flex; flex-wrap: wrap;}
+.section2_img {width: 50%; background: url(../img/xabout-2.jpg.pagespeed.ic.rhzBNDuwZq.jpg) no-repeat; background-size: cover; background-position: center;}
+.section2_text {padding-left: 50px; width: 50%; display: flex; flex-wrap: wrap;}
 
 .text_top {color: #9da1a5;}
 .text_top h3 {font-size: 16px; font-weight: 700; line-height: 1.4; margin-bottom: 24px; text-transform: uppercase; letter-spacing: 2px;}
@@ -56,6 +57,7 @@ nav li a {color: #fff; text-decoration: none;}
 .text_top span {color: #fff; margin-bottom: 48px; display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: 2px;}
 
 .text_img {display: flex; flex-flow: row; width: 100%;}
+.img_box {width: 50%; height: 300px; margin-right: 5px;}
 
 .text_bottom {color: #9da1a5; font-family: "Noto Serif",serif; margin-top: 48px; margin-bottom: 24px; font-style: italic;}
 .text_bottom p {color: #fff;font-weight: bold; line-height: 1.8; font-size: 18px; margin-bottom: 24px;}
@@ -66,6 +68,7 @@ nav li a {color: #fff; text-decoration: none;}
 .section3_top_text {display: flex; flex-wrap: wrap; width: 90%;}
 .introduce_text {color: #9da1a5; width: 100%; height: 30%; display: flex; justify-content: center; flex-direction: column;}
 .introduce_text h3 {font-size: 16px; font-weight: 700; line-height: 1.4; margin-bottom: 24px; text-transform: uppercase; letter-spacing: 2px;}
+.introduce_text p {line-height: 1.8;}
 .text_info_box {display: flex; flex-flow: row;}
 .info_box {display: flex; flex-flow: column wrap; color: #9da1a5; font-family: "Noto Sans", Arial, sans-serif; padding: 0 15px;}
 .info_box_img {height: 100px;}
@@ -136,8 +139,8 @@ nav li a {color: #fff; text-decoration: none;}
 .slider_img span {position: absolute; bottom: -10px; right: 0; width: 40px; height: 40px; border-radius: 50%; background-color: #fff; align-items: center;}
 .slider_img img {position: absolute; top: 30%; left: 30%; width: 40%;}
 
-.center_text {border-left: 1px solid #4d4d4d; padding-left: 24px; font-size: 16px; font-style: italic; font-family: "Noto Serif", serif; font-weight: 500; color: #fff; margin-bottom: 48px;}
-.center_text:after {position: absolute; top: 40%; left: 47px; transform: translateY(-50%); content: ''; width: 3px; height: 30px; background-color: #9d8f8f;}
+.center_text {border-left: 1px solid #4d4d4d; padding-left: 24px; font-size: 16px; font-style: italic; font-family: "Noto Serif", serif; font-weight: 500; color: #fff; margin-bottom: 48px; position: relative;}
+.center_text:after {position: absolute; top: 30%; left: -2px; content: ''; width: 3px; height: 30px; background-color: #9d8f8f;}
 
 .slider_text {width: 100%; margin-left: 48px;}
 .slider_text p {font-size: 16px; font-style: italic; font-family: "Noto Serif", serif; font-weight: 500; color: #fff;}
