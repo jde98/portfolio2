@@ -1,4 +1,4 @@
-/* 머시기 */
+/* 스크롤에 따른 헤더 opacity 변화 */
 window.addEventListener('scroll', function() {
 	var scrollPos = document.documentElement.scrollTop;
 
@@ -9,7 +9,7 @@ window.addEventListener('scroll', function() {
 	}
 });
 
-/* 거시기 */
+/* 제이쿼리로 nav메뉴 숨기고 모바일 사이즈에서 nav_list_button 입력 시 nav 메뉴 출력 */
 $(document).ready(function (){
 	if(window.innerWidth <= 990){
 		$(".nav").hide();

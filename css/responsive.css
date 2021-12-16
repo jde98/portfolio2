@@ -24,7 +24,9 @@
 	.nav_list_button {margin-right: 20px; display: block; background: url(../img/hamburger-list-menu.png) no-repeat; width: 30px; height: 30px; background-size: cover;}
 	header .container {flex-wrap: wrap; padding: 0;}
 
+
 	.main {width: 100%;}
+	.section_1 {background: url(../img/20201018231434160100_1.jpg) no-repeat; background-size: cover; background-position: center;}
 	.center_text_wrap {width: 100%;}
 	.center_text_wrap h1 {width: 100%;}
 
@@ -49,6 +51,7 @@
 	.container {padding: 0 20px;}
 	
 	.main {width: 100%;}
+	.section_1 {background: url(../img/20201018231434160100_1.jpg) no-repeat; background-size: cover; background-position: center;}
 	.center_text_wrap {width: 100%;}
 	.center_text_wrap h1 {font-size: 30px; width: 100%;}
 
