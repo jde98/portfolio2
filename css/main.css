@@ -93,10 +93,10 @@ nav li a {color: #fff; text-decoration: none;}
 .info_box h3 {color: #fff; text-transform: uppercase; font-size: 16px; margin-bottom: 16px;}
 .info_box p {margin-bottom: 16px; font-size: 16px; line-height: 1.8;}
 
-.section3_top_img {margin-left: 15px; background: url(../img/20191219163703464pcra.jpg) no-repeat; background-size: cover; background-position: center; width: 30%; height: 380px;}
+.section3_top_img {margin-left: 15px; background: url(../img/restmb_idxmake.jpg) no-repeat; background-size: cover; background-position: center; width: 30%; height: 380px;}
 
 .section3_bottom {display: flex; flex-wrap: wrap; flex-flow: row; margin-top: 48px; width: 100%;}
-.section3_bottom_img {width: 37%; height: auto; background: url(../img/art_16329873971192_227866.jpg) no-repeat; background-size: cover; background-position: center;}
+.section3_bottom_img {width: 37%; height: auto; background: url(../img/thumb-2943457049_I7RMzVjH_5776423879293ceb4b501edb04d9de181798a5f4_600x400.jpg) no-repeat; background-size: cover; background-position: center;}
 .section3_bottom_text {color: #9da1a5; padding: 48px 15px; display: flex; flex-wrap: wrap; width: 60%;}
 .section3_bottom_text p {margin-top: 24px; padding: 40px 24px; line-height: 1.8; font-size: 14px; font-weight: 400;}
 
@@ -128,7 +128,7 @@ nav li a {color: #fff; text-decoration: none;}
 .section4_overlay {background-color: #000; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 0; opacity: 0.5; content: ''; display: none;}
 .section4_icon {position: absolute; width: 70px; height: 70px; right: 50%; top: 50%; content: ''; z-index: 1; background-color: #fff; border-radius: 50%; margin-top: -70px; transform: translate(50%, 50%); cursor: zoom-in; display: none;}
 .section4_icon img {position: absolute; top: 35%; left: 35%; width: 30%;}
-.img_text {color: #fff; position: absolute; width: 30%; padding: 1.5rem; bottom: 0;}
+.img_text {color: #fff; position: absolute; width: 40%; padding: 1.5rem; bottom: 0;}
 .img_text p {display: block;}
 .img_text a {display: block; text-decoration: none; color: #fff; line-height: 1.2; font-size: 18px; padding: 5px 0;}
 
