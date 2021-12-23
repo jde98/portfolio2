@@ -15,39 +15,13 @@
 	<link rel="stylesheet" type="text/css" href="font/Noto-Sans.css">
 
 	<title>snapshot</title>
-
 </head>
 
 <body>
 	<div id="app">
 		<div id="wrap">
 			<header-template></header-template>
-			<section class="section_1">
-				<div class="overlay"></div>
-				<div class="container">
-					<div class="main_wrap">
-						<div class="main fadeInUp animate">
-							<div class="top_text_wrap">
-								<a href="#" class="top_text">
-									<span></span>
-									Snapshot
-									<small>Photographer / San Francisco</small>
-								</a>
-							</div>
-							<div class="center_text_wrap" style="display: inline-block; width: auto; height:auto">
-								<h1>WE MAKE<br>SOMETHING GREAT</h1>
-								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts.</p>
-							</div>
-							<div class="bottom_text_wrap">
-							<a href="#" class="bottom_text">
-								CONTACT US
-								<span>→</span>
-							</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+			<section1></section1>
 			<section class="section_2 section_bg pd">
 				<div class="container">
 					<div class="section2_wrap">
@@ -352,7 +326,6 @@
 		</div>
 	</div>
 	
-	
 	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
 	
@@ -368,8 +341,8 @@
 				<div class="nav_list_button"></div>
 				<nav class="nav">
 					<ul>
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Pages</a></li>
+						<li><a href="#" v-on:click="homeEvent">Home</a></li>
+						<li><a href="#" v-on:click="pageEvent">Pages</a></li>
 						<li><a href="#">About</a></li>
 						<li><a href="#">Gallery</a></li>
 						<li><a href="#">Blog</a></li>
@@ -392,12 +365,53 @@
 		</footer>
 	</template>
 	
+	<template id="section1">
+		<section class="section_1">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="main_wrap">
+					<div class="main fadeInUp animate">
+						<div class="top_text_wrap">
+							<a href="#" class="top_text">
+								<span></span>
+								Snapshot
+								<small>Photographer / San Francisco</small>
+							</a>
+						</div>
+						<div class="center_text_wrap" style="display: inline-block; width: auto; height:auto">
+							<h1>WE MAKE<br>SOMETHING GREAT</h1>
+							<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts.</p>
+						</div>
+						<div class="bottom_text_wrap">
+						<a href="#" class="bottom_text">
+							CONTACT US
+							<span>→</span>
+						</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+	
 	<script type="text/javascript">
 	
-	Vue.component('header-template', { template: '#headertemplate' })
-	Vue.component('footer-template', { template: '#footertemplate' })
-	
-	new Vue({ el: '#app' })
+		Vue.component('header-template',
+				     { template: '#headertemplate' 
+			         , methods: { 
+				         	homeEvent: function () {
+			    	      		console.log("test");
+			    	    	},
+			    	    	pageEvent: function (){
+			    	    		alert("page Event");
+			    	    	}
+		    	 	 }})
+				      
+		Vue.component('footer-template', { template: '#footertemplate' })
+		Vue.component('section1', { template: '#section1' })
+		
+		new Vue({ el: '#app' })
+		
 	</script>
 </body>
 </html>
